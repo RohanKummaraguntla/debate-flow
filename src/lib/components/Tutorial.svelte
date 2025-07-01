@@ -1,4 +1,5 @@
 <script lang="ts">
+/*
 	import Icon from './Icon.svelte';
 	import Tooltip from './Tooltip.svelte';
 	import { onDestroy } from 'svelte';
@@ -23,8 +24,10 @@
 
 	export let showTutorial: boolean;
 	export let savedFlowsExist: boolean;
+*/
 </script>
 
+<!--
 <button
 	class="top"
 	on:click={() => {
@@ -136,8 +139,10 @@
 		</div>
 	{/if}
 </button>
+-->
 
 <style>
+/*
 	.top {
 		padding: 0;
 		margin: 0;
@@ -212,4 +217,5 @@
 	.continue.start p {
 		color: var(--text);
 	}
+*/
 </style>
